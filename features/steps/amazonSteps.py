@@ -12,7 +12,7 @@ from features.pages.config import EnvSettings
 from features.pages.string_config import String
 from features.utilities.screenshot import Screenshots
 
-
+print("Hello...")
 @given('Open URL : www.amazon.in')
 def open_amazon_site(context):
     context.driver.get(EnvSettings.Amazon_page)
